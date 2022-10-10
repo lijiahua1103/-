@@ -1,0 +1,5 @@
+name=input('请输入用户名：')
+password=input('请输入密码：')
+mailbox=input('请输入邮箱：')
+print("{:20}".format('用户名'),          "{:20}".format('密码'),         "{:20}".format('邮箱') )
+print("{:20}".format(name),"{:20}".format(password),"{:20}".format(mailbox))
